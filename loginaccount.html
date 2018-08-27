@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="home-bg">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content = "width=device-width">
+    <meta name="description" content="A place where people can take fitness to the next level">
+    <title> Swole Summer | Greetings!</title>
+    <link rel = "stylesheet" href ="./css/style.css">
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+ <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+
+  </head>
+  <body class="home">
+      <header>
+        <div class="container">
+          <div id="branding">
+            <h1 class= "logo">Swole Summer</h1>
+          </div>
+</div>
+
+<div class="navbar">
+  <a href="loginaccount.html">Home</a>
+  <a href="#about">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">WORKOUT VIDEOS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="chest.html">Chest</a>
+      <a href="back.html">Back</a>
+      <a href="legs.html">Legs</a>
+      <a href="shoulders.html">Shoulders</a>
+      <a href="arms.html">Arms</a>
+    </div>
+    </div>
+    <a href="test.html">Recipes</a>
+      <div style="float:right">
+      <a href="index.html"> Log Out </a>
+    </div>
+    <!--
+  <div style="float:right">
+  <form align="right" name="form1" method="post" action="log_out.php">
+    <label class="logoutLblPos">
+    <input name="submit2" type="submit" id="submit2" value="log out">
+    </label>
+  </form>
+  </div>
+</div>
+
+          </div>
+        -->
+      </header>
+
+      <section id="showcase">
+        <div class="container">
+          <h1>SwoleSummer.</h1>
+          <p>Our mission is to help people enjoy going to the gym and being fit.</p>
+        </div>
+      </section>
+
+      <section id="placeholder">
+        <div class="container">
+          <div class="box">
+            <br>
+            <img src="./img/workout.jpeg">
+            <h3 id="about">ABOUT</h3>
+            <p>Welcome to SwoleSummer! SwoleSummer is a powerful tool that will help you achieve all of your fitness goals. Create an account to get started today!</p>
+          </div>
+          <div class="box">
+            <img src="./img/rock-fitness.jpg">
+            <h3>FITNESS</h3>
+            <p>Our recommended guides based on your goals will help you target every muscle group necessary for you to achieve your goals. Our workouts should take place in the gym. The workouts alongside the meal plans will help you see results quickly.</p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="boxes">
+        <div class="container">
+        <div class="box">
+          <a href="chest.html">
+          <img src="./img/GettingStarted.png">
+        </a>
+        <h3> Video Tutorial </h3>
+          <p>Have no idea how to start the workouts? Here is where to start!</p>
+        </div>
+        <div class="box">
+          <a href="test.html">
+            <img src="./img/food.jpg">
+          </a>
+          <h3> Meal Plans </h3>
+          <p>Here are our healthy meals to get you into top shape!</p>
+      </div>
+    </div>
+  </section>
+
+  <style>
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  #myBtn:hover {
+    background-color: #ddd;
+    color:#26ceef;
+    font-weight:bold;
+  }
+  </style>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <script>
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+      } else {
+          document.getElementById("myBtn").style.display = "none";
+      }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+
+
+      <footer class="home">
+        <p>SwoleSummer, Copyright &copy; 2018 </p>
+      </footer>
+  </body>
+</html>
